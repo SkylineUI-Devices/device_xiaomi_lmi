@@ -14,10 +14,11 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit some common Project Elixir stuff.
-ELIXIR_BUILD_TYPE := OFFICIAL
+# Inherit some common SkylineUI stuff.
+CUSTOM_BUILD_TYPE := OFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 IS_PHONE := true
+SKYLINEUI_MAINTAINER := 家-|ZenkaBestia
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
