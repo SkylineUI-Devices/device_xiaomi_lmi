@@ -10,6 +10,17 @@ echo 'Clone Prebuilt Apps Repo'
 # Prebuilt Apps
 git clone --depth=1 https://gitlab.com/ZenkaBestia/device_xiaomi_lmi_prebuilt-apps -b main device/xiaomi/lmi-prebuilt-apps
 
+echo 'Clone HALs Repo'
+# Audio
+rm -rf hardware/qcom-caf/sm8250/audio
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-21.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
+# Media
+rm -rf hardware/qcom-caf/sm8250/media
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-21.0-caf-sm8250 hardware/qcom-caf/sm8250/media
+# Display
+rm -rf hardware/qcom-caf/sm8250/display
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-21.0-caf-sm8250 hardware/qcom-caf/sm8250/display
+
 echo 'Clone MIUI Camera Repo'
 git clone --depth=1 https://github.com/ppooopppooo/vendor_xiaomi_lmi-miuicamera -b 13.0 vendor/xiaomi/lmi-miuicamera
 
