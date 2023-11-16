@@ -1,10 +1,10 @@
 echo 'Cloning Kernel Tree'
 # Kernel Tree
-git clone --depth=1 https://github.com/ProjectElixir-Devices/kernel_xiaomi_lmi.git -b Kitsune kernel/xiaomi/lmi
+git clone --depth=1 https://github.com/SkylineUI-Devices/kernel_xiaomi_lmi.git -b Kitsune kernel/xiaomi/lmi
 
 echo 'Cloning Vendor Tree'
 # Vendor Tree
-git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_lmi.git -b Tiramisu vendor/xiaomi/lmi
+git clone --depth=1 https://github.com/SkylineUI-Devices/vendor_xiaomi_lmi.git -b aosp-14 vendor/xiaomi/lmi
 
 echo 'Clone Prebuilt Apps Repo'
 # Prebuilt Apps
