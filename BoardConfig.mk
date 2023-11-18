@@ -220,3 +220,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/lmi/BoardConfigVendor.mk
+
+# Inherit Motorola Dolby if exist
+-include vendor/motorola/dolby/BoardConfigDolby.mk
