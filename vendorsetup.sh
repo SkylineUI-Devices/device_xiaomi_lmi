@@ -30,6 +30,3 @@ wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+a
 mkdir prebuilts/clang/host/linux-x86/clang-r475365b
 tar -xvf clang-r475365b.tar.gz -C prebuilts/clang/host/linux-x86/clang-r475365b
 rm clang-r475365b.tar.gz
-
-echo "Clone ViPER4Android FX"
-git clone --depth=1 https://github.com/ZenkaBestia/packages_apps_ViPER4AndroidFX -b v4a packages/apps/ViPER4AndroidFX
